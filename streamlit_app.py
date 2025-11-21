@@ -9,4 +9,4 @@ with st.expander("**Data**"):
   df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
   df
 with st.expander("Plot"):
-  st.scatter_chart(data = df,x = 'bill_length_mm', y = 'bill_depth_mm', color = 'spacies')
+  st.scatter_chart(data = df,x = 'bill_length_mm', y = 'bill_depth_mm', color = 'species')
