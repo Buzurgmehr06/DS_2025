@@ -10,3 +10,5 @@ with st.expander("**Data**"):
   df
 with st.expander("Plot"):
   st.scatter_chart(data = df,x = 'bill_length_mm', y = 'bill_depth_mm', color = 'species')
+with st.slidebar:
+  st.header('Input features')
