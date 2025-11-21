@@ -12,4 +12,4 @@ with st.expander("Plot"):
   st.scatter_chart(data = df,x = 'bill_length_mm', y = 'bill_depth_mm', color = 'species')
 with st.sidebar:
   st.header('Input features')
-  island = st.selectbox('dssd','sdsds','sdsd')
+  island = st.selectbox('Island', (df['island'].unique())
