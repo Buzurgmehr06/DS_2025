@@ -13,3 +13,8 @@ with st.expander("Plot"):
 with st.sidebar:
   st.header('Input features')
   island = st.selectbox('Island', df['island'].unique())
+  bill_length_mm = st.slider("**bill_length_mm**", 32.1, 59.6, 35.1)
+  bill_depth_mm = st.slider("**bill_depth_mm**", 32.1, 59.6, 35.1)
+  flipper_length_mm = st.slider("**flipper_length_mm**", 32.1, 59.6, 35.1)
+  body_mass_g = st.slider("**body_mass_g**", 2700, l, 35.1)
+  sex = st. selectbox("**Gender**", ('male', 'female'))
